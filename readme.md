@@ -35,7 +35,8 @@
  <img width="955" height="317" alt="image3" src="https://github.com/user-attachments/assets/4ffeae9b-5c61-4c16-97fc-b5b531dc76f2" />  
 
  И картинка доступна из интернета по адресу https://alexabujor-140226.storage.yandexcloud.net/image.jpg (скриншот сделан в telegram, где при указании ссылки она сразу же загружается):  
- (ВСТАВИТЬ СКРИНШОТ!!!) 
+ <img width="420" height="133" alt="image" src="https://github.com/user-attachments/assets/294c67ae-e8ad-4c61-9e19-20a4cb30e091" />
+
  
 ---
 
