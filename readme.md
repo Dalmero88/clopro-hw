@@ -28,7 +28,7 @@
 1. Проверяем ```terraform plan```, что создадутся все необходимые ресурсы:  
  <img width="731" height="125" alt="image1" src="https://github.com/user-attachments/assets/5de30e88-9444-41f9-b9d1-cf50ffac7120" />  
 
- В том числе s3 из [**bucket.tf**](https://github.com/Dalmero88/clopro-hw/bucket.tf):  
+ В том числе s3 из [**bucket.tf**](https://github.com/Dalmero88/clopro-hw/blob/e0a3401857e4bf241a8d53e00671a9b3d5b5c374/bucket.tf):  
  <img width="448" height="420" alt="image2" src="https://github.com/user-attachments/assets/6096f023-d450-42c7-b2db-92aaa369a122" />  
 
  После применения убеждаемся, что s3 создался и картинка в нем:  
@@ -52,7 +52,7 @@
 
 ---
 
-3. Убеждаемся, что сетевой балансировщик из [**nlb.tf**](https://github.com/Dalmero88/clopro-hw/nlb.tf) создался в облаке:  
+3. Убеждаемся, что сетевой балансировщик из [**nlb.tf**](https://github.com/Dalmero88/clopro-hw/blob/e0a3401857e4bf241a8d53e00671a9b3d5b5c374/nlb.tf) создался в облаке:  
  <img width="1159" height="326" alt="image11" src="https://github.com/user-attachments/assets/c43d111e-8fb8-4c89-9602-dd59eb6cf662" />
  <img width="989" height="283" alt="image12" src="https://github.com/user-attachments/assets/74fbb6ea-1c9d-41ec-820e-0b9de320c87d" />
 
@@ -64,7 +64,7 @@
 
 ---
 
-4. Убеждаемся, что Application Load Balancer из [**alb.tf**](https://github.com/Dalmero88/clopro-hw/alb.tf) с использованием [**instance-group.tf**](https://github.com/Dalmero88/clopro-hw/instance-group.tf) создался в облаке:  
+4. Убеждаемся, что Application Load Balancer из [**alb.tf**](https://github.com/Dalmero88/clopro-hw/blob/e0a3401857e4bf241a8d53e00671a9b3d5b5c374/alb.tf) с использованием [**instance-group.tf**](https://github.com/Dalmero88/clopro-hw/blob/e0a3401857e4bf241a8d53e00671a9b3d5b5c374/instance-group.tf) создался в облаке:  
    <img width="974" height="238" alt="image15" src="https://github.com/user-attachments/assets/5eb26c8e-fd7e-4c76-96d6-31a21b394af2" />
    И проверим, что страница открывается по публичному IP alb:
    <img width="556" height="256" alt="image16" src="https://github.com/user-attachments/assets/7e5a09c8-cba4-4326-ad3b-dec24380293b" />
